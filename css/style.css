@@ -1,0 +1,47 @@
+*{
+    margin:0;
+	padding:0;
+}
+table{
+	border:2px dotted;
+	color:black;
+}
+form{
+	display:flex;
+	justify-content:center;
+}
+
+td{
+	border:1px dotted;
+	color:grey;
+	padding:10px;
+}
+.border{
+	text-align:center;
+}
+.end{
+	text-align:right;
+}
+input{
+	border-top:3px solid grey;
+	border-left:3px solid grey;
+}
+select{
+	border-top:3px solid grey;
+	border-left:3px solid grey;
+}
+textarea{
+	border-top:3px solid grey;
+	border-left:3px solid grey;
+}
+.text{
+	overflow-y:scroll;
+	resize:none;
+}
+.scrl{
+	resize:none;
+}
+.none{
+	border:2px solid grey;
+	padding:5px;
+}
